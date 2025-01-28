@@ -12,6 +12,7 @@ class DetailActivity : AppCompatActivity() {
         // Mendapatkan data yang dikirimkan dari MainActivity
         val item = intent.getStringExtra("ITEM")
 
+
         // Menampilkan data di TextView
         val detailTextView: TextView = findViewById(R.id.detailTextView)
         detailTextView.text = "Detail for: $item"
