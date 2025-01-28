@@ -15,7 +15,7 @@ class DataAdapter(private val dataList: List<DataModel>) : RecyclerView.Adapter<
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ViewHolder {
         val view = LayoutInflater.from(parent.context).inflate(R.layout.item_data, parent, false)
         return ViewHolder(view)
-    }
+    } 
 
     override fun onBindViewHolder(holder: ViewHolder, position: Int) {
         val data = dataList[position]
