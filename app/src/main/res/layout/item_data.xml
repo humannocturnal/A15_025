@@ -63,4 +63,5 @@
                 android:textColor="@android:color/white" />
         </LinearLayout>
     </LinearLayout>
+
 </com.google.android.material.card.MaterialCardView>
