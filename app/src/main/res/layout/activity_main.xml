@@ -26,6 +26,7 @@
         android:layout_below="@id/topAppBar"
         tools:listitem="@layout/item_data" />
 
+
     <!-- Floating Action Button -->
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/addFab"
