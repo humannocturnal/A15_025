@@ -14,4 +14,5 @@ interface DataDao {
 
     @Query("DELETE FROM data_table WHERE id = :id")
     suspend fun deleteById(id: Int)
+
 }
