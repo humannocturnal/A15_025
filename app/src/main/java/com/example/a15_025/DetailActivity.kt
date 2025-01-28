@@ -17,4 +17,5 @@ class DetailActivity : AppCompatActivity() {
         val detailTextView: TextView = findViewById(R.id.detailTextView)
         detailTextView.text = "Detail for: $item"
     }
+
 }
