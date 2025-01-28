@@ -16,7 +16,6 @@
         android:inputType="textPersonName"
         android:textSize="16sp" />
 
-
     <!-- Input for Description -->
     <EditText
         android:id="@+id/descriptionEditText"
